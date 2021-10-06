@@ -5,6 +5,8 @@ target/
 .factorypath
 **/.DS_Store
 test-output/
+.idea
 .idea/
+.idea/*
 *.iml
 **/*.iml
