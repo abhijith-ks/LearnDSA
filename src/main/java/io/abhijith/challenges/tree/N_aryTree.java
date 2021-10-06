@@ -1,7 +1,5 @@
 package io.abhijith.challenges.tree;
 
-import com.sun.tools.internal.ws.wsdl.document.schema.SchemaKinds;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
