@@ -1,5 +1,6 @@
 package io.abhijith;
 
+import io.abhijith.challenges.graph.CycleInDirectedGraphRecursionStack;
 import io.abhijith.challenges.graph.williamfiset.*;
 
 public class Driver {
@@ -995,7 +996,10 @@ public class Driver {
 //        object.findSolution();
 
 //--------------------------------------DijkstrasAlgorithm----------------------------------------------
-        DijkstrasAlgorithm object =  new DijkstrasAlgorithm();
+//        DijkstrasAlgorithm object =  new DijkstrasAlgorithm();
+//        object.findSolution();
+
+        CycleInDirectedGraphRecursionStack object = new CycleInDirectedGraphRecursionStack();
         object.findSolution();
     }
 
