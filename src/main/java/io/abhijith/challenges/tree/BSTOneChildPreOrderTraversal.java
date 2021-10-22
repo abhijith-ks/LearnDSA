@@ -6,7 +6,7 @@ package io.abhijith.challenges.tree;
  * Input: pre[] = {20, 10, 11, 13, 12}
  * Output: Yes
  * The give array represents following BST. In the following BST, every internal
- * node has exactly 1 child. Therefor, the output is true.
+ * node has exactly 1 child. Therefore, the output is true.
  *         20
  *        /
  *       10

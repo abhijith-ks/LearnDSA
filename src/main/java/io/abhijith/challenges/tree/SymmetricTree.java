@@ -8,6 +8,8 @@ package io.abhijith.challenges.tree;
 
 import io.abhijith.resources.BinaryTreeNode;
 
+import java.util.Objects;
+
 public class SymmetricTree {
 	
 	BinaryTreeNode root = new BinaryTreeNode("1", 
@@ -33,7 +35,7 @@ public class SymmetricTree {
 			return false;
 		}
 		
-		if(left.getVal() != right.getVal()) {
+		if(!Objects.equals(left.getVal(), right.getVal())) {
 			return false;
 		}
 		

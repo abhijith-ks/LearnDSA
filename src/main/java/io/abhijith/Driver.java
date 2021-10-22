@@ -1,6 +1,7 @@
 package io.abhijith;
 
 import io.abhijith.challenges.graph.CycleInDirectedGraphRecursionStack;
+import io.abhijith.challenges.graph.NumberOfConnectedComponents;
 import io.abhijith.challenges.graph.williamfiset.*;
 
 public class Driver {
@@ -999,7 +1000,12 @@ public class Driver {
 //        DijkstrasAlgorithm object =  new DijkstrasAlgorithm();
 //        object.findSolution();
 
-        CycleInDirectedGraphRecursionStack object = new CycleInDirectedGraphRecursionStack();
+//--------------------------------------CycleInDirectedGraphRecursionStack----------------------------------------------
+//        CycleInDirectedGraphRecursionStack object = new CycleInDirectedGraphRecursionStack();
+//        object.findSolution();
+
+//--------------------------------------NumberOfConnectedComponents----------------------------------------------
+        NumberOfConnectedComponents object = new NumberOfConnectedComponents();
         object.findSolution();
     }
 

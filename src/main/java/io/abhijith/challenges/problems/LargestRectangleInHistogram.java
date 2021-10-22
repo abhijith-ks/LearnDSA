@@ -18,7 +18,7 @@ public class LargestRectangleInHistogram {
         int total;
         int maxWidth = Integer.MIN_VALUE;
 
-        if(input.length == 0 || input == null) {
+        if(input == null || input.length == 0) {
             System.out.println(0);
         }
 
@@ -44,7 +44,7 @@ public class LargestRectangleInHistogram {
     }
 
     public void optimalSolution(int[] input) {
-        if(input.length == 0 || input == null)
+        if(input == null || input.length == 0)
             return;
 
         Stack<Integer> stack = new Stack<>();

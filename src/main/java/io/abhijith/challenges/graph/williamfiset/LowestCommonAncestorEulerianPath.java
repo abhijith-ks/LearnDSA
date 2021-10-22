@@ -45,7 +45,7 @@ public class LowestCommonAncestorEulerianPath {
         }
 
         int l = Math.min(index1, index2);
-        int r = Math.min(index1, index2);
+        int r = Math.max(index1, index2);
         int minValue = Integer.MAX_VALUE;
         int minValueIndex = 0;
 
